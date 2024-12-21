@@ -58,7 +58,14 @@ def display_graph(df, question):
 
 # Mapping categories and questions to their corresponding SQL script paths
 def get_question_to_script_map():
-    default_script_path = st.secrets["sql"]["script"]
+
+    # Attempt to get the SQL script path from Streamlit secrets or use a default script path
+    try:
+        default_script_path = st.secrets["sql"]["script"]
+        print("Using SQL script path from Streamlit secrets.")
+    except Exception:
+        default_script_path = "sql_query/"
+        print("Using default SQL script path as Streamlit secrets are not set.")
     return {
         "Revenue and Sales Performance": {
             "Top 10 highest revenue-generating products ": f"{default_script_path}1.sql",
