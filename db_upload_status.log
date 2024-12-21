@@ -1,0 +1,7 @@
+INFO:root:Database 'retail_orders' created successfully.
+INFO:root:Table 'order_details' created or already exists.
+INFO:root:Table 'product_details' created or already exists.
+INFO:root:Data inserted into 'order_details' table.
+INFO:root:Data inserted into 'product_details' table.
+INFO:root:Data inserted successfully!
+INFO:root:MySQL connection is closed
