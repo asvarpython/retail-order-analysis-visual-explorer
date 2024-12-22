@@ -2,7 +2,14 @@
 
 Welcome to the **Retail Order Analysis Visual Explorer** project! This interactive web application is designed to help users explore, analyze, and visualize retail order data through an intuitive interface. The application integrates with a MySQL database to allow detailed data exploration and actionable insights for business analysis.
 
+## Live Application 🌐
+
+Experience the application live at: [Retail Order Analysis Visual Explorer](https://retail-order-analysis-visual-explorer.streamlit.app/)
+
+Try out the interactive features and explore retail order data in real-time through our deployed application. No installation required!
+
 ---
+
 
 ## Project Overview 🚀
 
@@ -62,8 +69,15 @@ Here are some of the key SQL queries used to gain insights:
 
 ## Getting Started ⚙️
 
+### Quick Start 🚀
+Visit our [live application](https://retail-order-analysis-visual-explorer.streamlit.app/) to start exploring the data immediately!
+
+### Local Development Setup
+
 ### Set up the Environment 🛠️
 **Install Anaconda**: Download and install [Anaconda](https://www.anaconda.com/products/distribution).
+
+**Install MySQL Community Server**: Download and install [MySQL](https://dev.mysql.com/downloads/mysql/).
 
 ### Creating a New Conda Environment and Installing Dependencies 📦
 1. **Create a new Conda environment using the roave.yml file:**:
